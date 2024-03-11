@@ -62,6 +62,9 @@ html {
     // Product detail
     --product-detail-bg: #fff;
     --product-detail-info-bg: #f6f6f6;
+    --product-detail-info-content-bg: #fff;
+    --product-detail-tag-bg: #ededf6;
+    --product-detail-tax-bg: linear-gradient(0deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), #67b044;
 
     @include abstracts.screen(md) {
         --product-detail-bg: #fafafd;
@@ -75,4 +78,7 @@ html {
     @include abstracts.screen(md) {
         --breadcrumbs-bg: #fff;
     }
+
+    // Search bar
+    --search-bar-bg: #fff;
 }
